@@ -54,3 +54,6 @@ dkms.conf
 # SES files and build results
 *.jlink
 Output/
+
+# GCC build results
+_build/

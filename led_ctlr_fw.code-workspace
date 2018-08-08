@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+                        "name": "LED Controller Firmware",
+			"path": "."
+		},
+		{
+                        "name": "PCA10056/s140",
+			"path": "pca10056/s140/armgcc"
+		}
+	]
+}
