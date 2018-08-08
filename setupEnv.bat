@@ -18,4 +18,4 @@ set JAVA=C:/Program Files (x86)/Java/jdk1.8.0_161/bin/java.exe
 
 rem Serial numbers of nRF development boards
 set PCA10056_SN=683798348
-
+set PCA10059_SN=683798348
