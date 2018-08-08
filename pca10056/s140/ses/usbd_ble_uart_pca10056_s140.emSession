@@ -14,7 +14,8 @@
   <ProjectSessionItem path="usbd_ble_uart_pca10056_s140"/>
   <ProjectSessionItem path="usbd_ble_uart_pca10056_s140;usbd_ble_uart_pca10056_s140"/>
   <ProjectSessionItem path="usbd_ble_uart_pca10056_s140;usbd_ble_uart_pca10056_s140;Application"/>
-  <ProjectSessionItem path="usbd_ble_uart_pca10056_s140;usbd_ble_uart_pca10056_s140;nRF_BLE_Services"/>
+  <ProjectSessionItem path="usbd_ble_uart_pca10056_s140;usbd_ble_uart_pca10056_s140;Board Support"/>
+  <ProjectSessionItem path="usbd_ble_uart_pca10056_s140;usbd_ble_uart_pca10056_s140;nRF_Libraries"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -38,11 +39,6 @@
  <Watch4>
   <Watches active="0" update="Never"/>
  </Watch4>
- <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="12" y="497" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="465" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="98" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/retarget.c" selected="0" top="24" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="769" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 3.40/include/stdio.h" selected="0" top="718" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="63" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_nus/ble_nus.c" selected="1" top="160" codecName="Default"/>
- </Files>
- <ARMCrossStudioWindow activeProject="usbd_ble_uart_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <Files/>
+ <ARMCrossStudioWindow activeProject="usbd_ble_uart_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
