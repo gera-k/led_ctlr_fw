@@ -1,0 +1,85 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="56" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../led_ctlr.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="98" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../led_ctlr.c" useHWbreakpoint="false"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="led_ctlr_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="led_ctlr_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="led_ctlr_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="led_ctlr_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140;Application"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140;Board Definition"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140;Board Support"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140;nRF_Drivers"/>
+  <ProjectSessionItem path="led_ctlr_pca10056_s140;led_ctlr_pca10056_s140;nRF_Libraries"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="led_ctlr_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="led_ctlr_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="led_ctlr_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="led_ctlr_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint numelements="16" expression="spi_buf" evalMode="2" name="spi_buf" radix="-1" linenumber="17" filename="../../../led_ctlr.c" list=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="7" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr_hw.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="416" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr.c" selected="0" top="386" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="871" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="813" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="64" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/softdevice/s140/headers/nrf_error.h" selected="0" top="21" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="39" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/boards/boards.c" selected="0" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/boards/boards.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="312" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/include/nrfx_spim.h" selected="0" top="277" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="31" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/util/nordic_common.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/nrfx_common.h" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/experimental_log/nrf_log.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="796" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/integration/nrfx/legacy/apply_old_config.h" selected="0" top="776" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="160" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/util/app_error.h" selected="0" top="118" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="74" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_show.h" selected="0" top="11" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="13" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr_hw.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5318" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="5274" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/src/nrfx_spim.c" selected="1" top="0" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="led_ctlr_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="V:/LedController/led_ctlr_fw" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

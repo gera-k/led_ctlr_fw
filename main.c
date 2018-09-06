@@ -85,6 +85,8 @@
 #include "app_usbd_cdc_acm.h"
 #include "app_usbd_serial_num.h"
 
+#include "led_ctlr.h"
+
 #define LED_BLE_NUS_CONN (BSP_BOARD_LED_0)
 #define LED_BLE_NUS_RX   (BSP_BOARD_LED_1)
 #define LED_CDC_ACM_CONN (BSP_BOARD_LED_2)
@@ -849,9 +851,11 @@ int main(void)
     services_init();
     advertising_init();
     conn_params_init();
+    led_ctlr_init(led_ctlr_NeoPixel);
 
     // Start execution.
     advertising_start();
+    led_ctlr_start();
 
     ret = app_usbd_power_events_enable();
     APP_ERROR_CHECK(ret);

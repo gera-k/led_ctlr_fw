@@ -1,4 +1,4 @@
-PROJECT_NAME     := usbd_ble_uart_pca10056_s140
+PROJECT_NAME     := led_ctlr_pca10056_s140
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := _build
 
@@ -8,7 +8,7 @@ PROJ_DIR := ../../..
 NRFJPROG=$(NRF_TOOLS)/nrfjprog -s $(PCA10056_SN)
 
 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
-  LINKER_SCRIPT  := usbd_ble_uart_gcc_nrf52.ld
+  LINKER_SCRIPT  := led_ctlr_gcc_nrf52.ld
 
 # Source files common to all targets
 SRC_FILES += \
@@ -60,11 +60,14 @@ SRC_FILES += \
   $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_power.c \
   $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_power_clock.c \
   $(SDK_ROOT)/modules/nrfx/drivers/src/prs/nrfx_prs.c \
+  $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_spim.c \
   $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_uart.c \
   $(SDK_ROOT)/modules/nrfx/drivers/src/nrfx_uarte.c \
   $(SDK_ROOT)/components/libraries/bsp/bsp.c \
   $(SDK_ROOT)/components/libraries/bsp/bsp_btn_ble.c \
   $(PROJ_DIR)/main.c \
+  $(PROJ_DIR)/led_ctlr.c \
+  $(PROJ_DIR)/led_ctlr_hw.c \
   $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT.c \
   $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT_Syscalls_GCC.c \
   $(SDK_ROOT)/external/segger_rtt/SEGGER_RTT_printf.c \
