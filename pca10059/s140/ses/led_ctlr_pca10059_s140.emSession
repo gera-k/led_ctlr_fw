@@ -2,8 +2,7 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="315" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../led_ctlr_hw.c" useHWbreakpoint="false"/>
-  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+  <BreakpointListItem trigger="" line="318" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../led_ctlr_hw.c" useHWbreakpoint="false"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
@@ -26,7 +25,7 @@
   <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140"/>
   <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;Application"/>
   <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;Board Definition"/>
-  <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;nRF_Drivers"/>
+  <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;None"/>
   <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;nRF_Libraries"/>
   <ProjectSessionItem path="led_ctlr_pca10059_s140;led_ctlr_pca10059_s140;nRF_Log"/>
  </Project>
@@ -61,19 +60,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="822" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="807" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr.c" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5323" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="5290" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="315" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr_hw.c" selected="1" top="301" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_ctlr_hw.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="6" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../led_show.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="153" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/include/nrfx_spim.h" selected="0" top="90" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="98" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/util/app_error_weak.c" selected="0" top="52" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="617" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/hal/nrf_gpio.h" selected="0" top="583" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/util/app_error_handler_gcc.c" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="65" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/experimental_log/src/nrf_log_backend_uart.c" selected="0" top="9" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="100" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/src/nrfx_uarte.c" selected="0" top="66" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.2.0_9412b96/components/libraries/usbd/app_usbd_string_desc.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="88" useTextEdit="1" useBinaryEdit="0" left="0" path="V:/Nordic/SDK/nRF5_SDK_15.2.0_9412b96/modules/nrfx/drivers/include/nrfx_spim.h" selected="0" top="35" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5344" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="1" top="5344" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="led_ctlr_pca10059_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="led_ctlr_pca10059_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

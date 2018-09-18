@@ -1,0 +1,58 @@
+diff --git "a/V:\\LedController\\led_ctlr_fw\\pca10056\\s140\\config\\sdk_config.h" "b/V:\\LedController\\led_ctlr_fw\\pca10059\\s140\\config\\sdk_config.h"
+index b9f5a55..8b35a9d 100644
+--- "a/V:\\LedController\\led_ctlr_fw\\pca10056\\s140\\config\\sdk_config.h"
++++ "b/V:\\LedController\\led_ctlr_fw\\pca10059\\s140\\config\\sdk_config.h"
+@@ -6376,22 +6376,22 @@
+ 
+ // <o> HCI_UART_RX_PIN - UART RX pin 
+ #ifndef HCI_UART_RX_PIN
+-#define HCI_UART_RX_PIN 8
++#define HCI_UART_RX_PIN 31
+ #endif
+ 
+ // <o> HCI_UART_TX_PIN - UART TX pin 
+ #ifndef HCI_UART_TX_PIN
+-#define HCI_UART_TX_PIN 6
++#define HCI_UART_TX_PIN 31
+ #endif
+ 
+ // <o> HCI_UART_RTS_PIN - UART RTS pin 
+ #ifndef HCI_UART_RTS_PIN
+-#define HCI_UART_RTS_PIN 5
++#define HCI_UART_RTS_PIN 31
+ #endif
+ 
+ // <o> HCI_UART_CTS_PIN - UART CTS pin 
+ #ifndef HCI_UART_CTS_PIN
+-#define HCI_UART_CTS_PIN 7
++#define HCI_UART_CTS_PIN 31
+ #endif
+ 
+ // </e>
+@@ -7183,7 +7183,7 @@
+ #endif
+ // <o> NRF_LOG_BACKEND_UART_TX_PIN - UART TX pin 
+ #ifndef NRF_LOG_BACKEND_UART_TX_PIN
+-#define NRF_LOG_BACKEND_UART_TX_PIN 6
++#define NRF_LOG_BACKEND_UART_TX_PIN 42
+ #endif
+ 
+ // <o> NRF_LOG_BACKEND_UART_BAUDRATE  - Default Baudrate
+@@ -7300,7 +7300,7 @@
+ // <4=> Debug 
+ 
+ #ifndef NRF_LOG_DEFAULT_LEVEL
+-#define NRF_LOG_DEFAULT_LEVEL 3
++#define NRF_LOG_DEFAULT_LEVEL 4
+ #endif
+ 
+ // <q> NRF_LOG_DEFERRED  - Enable deffered logger.
+@@ -7309,7 +7309,7 @@
+ // <i> Log data is buffered and can be processed in idle.
+ 
+ #ifndef NRF_LOG_DEFERRED
+-#define NRF_LOG_DEFERRED 0
++#define NRF_LOG_DEFERRED 1
+ #endif
+ 
+ // <o> NRF_LOG_BUFSIZE  - Size of the buffer for storing logs (in bytes).

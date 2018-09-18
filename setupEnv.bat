@@ -1,5 +1,6 @@
 rem Location of Nordic SDK
-set NRF_SDK=V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a
+rem set NRF_SDK=V:/Nordic/SDK/nRF5_SDK_15.0.0_a53641a
+set NRF_SDK=V:/Nordic/SDK/nRF5_SDK_15.2.0_9412b96
 
 rem Location of Nordic Command Line tools (nrfjprog) 
 set NRF_TOOLS=C:/Program Files (x86)/Nordic Semiconductor/nrf5x/bin

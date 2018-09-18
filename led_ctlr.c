@@ -2,6 +2,8 @@
 #include "nrf_gpio.h"
 #include "nrf_delay.h"
 #include "nrf_error.h"
+
+#define NRF_LOG_LEVEL NRF_LOG_SEVERITY_INFO
 #include "nrf_log.h"
 
 #include "app_error.h"

@@ -4,6 +4,7 @@
             "name": "pca10056/s140",
             "includePath": [
                 "${workspaceFolder}/pca10056/s140/config",
+                "{env:NRF_SDK}/components/softdevice/s140/headers/**",
                 "${env:NRF_SDK}/**"
             ],
             "defines": [

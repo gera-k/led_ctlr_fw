@@ -53,6 +53,7 @@
 #include <string.h>
 #include "nordic_common.h"
 #include "nrf.h"
+#include "ble_gap.h"
 #include "ble_hci.h"
 #include "ble_advdata.h"
 #include "ble_advertising.h"
@@ -836,7 +837,7 @@ int main(void)
     ret = nrf_drv_clock_init();
     APP_ERROR_CHECK(ret);
 
-    NRF_LOG_INFO("USBD BLE UART example started.");
+    NRF_LOG_INFO("LED Controller start.");
 
     ret = app_usbd_init(&usbd_config);
     APP_ERROR_CHECK(ret);
